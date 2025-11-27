@@ -1,13 +1,16 @@
+// صحنه و دوربین
 let scene = new THREE.Scene();
 scene.background = new THREE.Color(0xaaaaaa);
 
 let camera = new THREE.PerspectiveCamera(50, window.innerWidth/window.innerHeight, 0.1, 1000);
 camera.position.set(5, 10, 10);
 
+// رندر
 let renderer = new THREE.WebGLRenderer({antialias: true});
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
+// کنترل دوربین
 let controls = new THREE.OrbitControls(camera, renderer.domElement);
 controls.target.set(3.5,0,3.5);
 controls.update();
