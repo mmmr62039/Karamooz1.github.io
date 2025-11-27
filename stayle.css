@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+    padding-bottom: 20px;
+}
+body{
+    direction: rtl;
+}
+.top {
+    width: 100%;
+    background-color: rgb(55, 0, 104);
+    text-align: center;
+    padding: 30px;
+}
+.top h1 {
+    color: #32e605;
+    font-size: 70px;
+    size: 100px;
+}
+.box{
+    background-color: grey;
+    width: 100%;
+    float: right;
+    padding: 30px;
+}
+.box .right{
+    width: 42%;
+    background-color: #a37f7f90;
+    float: right;
+    padding: 20px;
+}
+.box .left{
+    width: 42%;
+    background-color: #a37f7f90;
+    float: left;
+    color: #a37f7f90;
+    padding: 20px;
+    text-align: center;
+}
+.right p{
+    line-height: 25px;
+    text-align: justify;
+}
+.main{
+    background-color: grey;
+    width: 100%;
+    float: right;
+    padding: 30px;   
+}
+.myform{
+    width: 42%;
+    background-color: #a37f7f90;
+    float: right;
+    padding: 20px;
+}
+.myform input[type="text"],
+.myform input[type="email"],
+.myform input[type="password"]{
+    padding: 10px;
+    width: 100%;
+
+}
